@@ -1,0 +1,4 @@
+host1 ansible_host=localhost
+
+[mygroup]
+host2 ansible_host=localhost

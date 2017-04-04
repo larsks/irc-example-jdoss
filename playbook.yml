@@ -1,0 +1,11 @@
+- hosts: all
+  gather_facts: false
+  tasks:
+    - debug:
+        var: myvar
+
+- hosts: mygroup
+  gather_facts: false
+  tasks:
+    - debug:
+        var: myvar
